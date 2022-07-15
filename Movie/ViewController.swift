@@ -45,6 +45,8 @@ class ViewController: UIViewController {
         a.layer.masksToBounds = true
         a.layer.borderColor = UIColor.gray.cgColor
         a.layer.cornerRadius = a.frame.height/2
+    }
+    @IBAction func unwindVC(jySegue: UIStoryboardSegue) {
         
     }
 }
